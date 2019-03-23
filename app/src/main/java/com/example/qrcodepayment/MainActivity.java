@@ -100,8 +100,8 @@ public class MainActivity extends AppCompatActivity {
                 Request request_get_qr = new Request.Builder()
                         .url("https://sandbox-api.payosy.com/api/get_qr_sale")
                         .post(getbodyqr)
-                        .addHeader("x-ibm-client-id", "6a343f05-a696-42f5-bf52-feb067664edd")
-                        .addHeader("x-ibm-client-secret", "V0pE7gC5gW0cH4bA6kX3mN6jA3xK0tD1qQ5tH4qI6wY0vT8jL2")
+                        .addHeader("x-ibm-client-id", "..........................")
+                        .addHeader("x-ibm-client-secret", "........................")
                         .addHeader("content-type", "application/json")
                         .addHeader("accept", "application/json")
                         .build();
@@ -157,8 +157,8 @@ public class MainActivity extends AppCompatActivity {
                     Request request_set = new Request.Builder()
                         .url("https://sandbox-api.payosy.com/api/payment")
                         .post(body)
-                        .addHeader("x-ibm-client-id", "6a343f05-a696-42f5-bf52-feb067664edd")
-                        .addHeader("x-ibm-client-secret", "V0pE7gC5gW0cH4bA6kX3mN6jA3xK0tD1qQ5tH4qI6wY0vT8jL2")
+                        .addHeader("x-ibm-client-id", ".....................")
+                        .addHeader("x-ibm-client-secret", ".......................")
                         .addHeader("content-type", "application/json")
                         .addHeader("accept", "application/json")
                         .build();
